@@ -4,8 +4,10 @@ import Directory from "../../components/directory/directory";
 
 export const Homepage = () => {
   return (
-    <div className="homepage">
-      <Directory></Directory>
+    <div>
+      <div className="homepage">
+        <Directory />
+      </div>
     </div>
   );
 };
