@@ -2,7 +2,7 @@ import React from "react";
 import "./homepage.scss";
 import Directory from "../../components/directory/directory";
 
-export const Homepage = () => {
+const Homepage = () => {
   return (
     <div>
       <div className="homepage">
@@ -11,3 +11,5 @@ export const Homepage = () => {
     </div>
   );
 };
+
+export default Homepage;
